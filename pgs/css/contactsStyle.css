@@ -1,0 +1,89 @@
+html
+{
+	overflow: hidden;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(img/bg.jpg) no-repeat center/cover;
+	background-attachment: fixed;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.list
+{
+	width: 300px;
+	float: right;
+	margin-top: 20%;
+	margin-right: 30%;
+}
+
+.list li
+{
+	text-decoration: none;
+}
+
+.size
+{
+	width: 100px;
+}
+
+.styleze
+{
+	border-radius: 2px;
+	margin-left: 30px;
+	margin-top:10px;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-decoration: none;
+	background-color: transparent;
+	transition: all .2s ease-in-out;
+	color: #51708A;
+}
+
+.styleze:hover
+{
+	transform: scale(1.3);
+	color: #172C3F;
+	background-color: transparent;
+}
+
+.mapsize
+{
+	width: 5%;
+	margin-top: 5%;
+	float: left;
+	margin-left: 10%;
+}
+
+.line
+{
+	height: 1px;
+	width: 90%;
+	background-color: black;
+	border-radius: 2px;
+	margin: 0 auto;
+	opacity: 0.1;
+}
+
+.lilines
+{
+	height: 1px;
+	width: 30%;
+	background-color: black;
+	border-radius: 2px;
+	opacity: 0.1;
+}
+
+.icons
+{
+	width: 10%;
+}

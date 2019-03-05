@@ -1,18 +1,9 @@
-html
-{
-	overflow: hidden;
-}
-
 
 body
 {
 	margin: 0;
 	padding: 0;
-	background: url(css/img/bg.jpg) no-repeat center/cover;
-	background-attachment: fixed;
 }
-
-
 
 .menutext
 {
@@ -21,25 +12,14 @@ body
 	font-size: 120%;
 }
 
-.btnop
-{
-	background-color: black;
-}
-
-
 .content
 {
-	margin: 0;
-	position: absolute;
-    top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin-bottom: 20%;
 }
 
 .btnsize
 {
 	text-transform: uppercase;
-	font-size: 100%;
 	color:white;
 }
 
@@ -56,4 +36,35 @@ body
 	transform: scale(1.3);
 	color: #51708A;
 	background-color: transparent;
+}
+
+#st
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	/*border: solid red 2px;*/
+	font-family: "Times New Roman", Times,serif;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li
+{
+	margin-top: 3%;
+}
+
+.line
+{
+	height: 1px;
+	width: 90%;
+	background-color: black;
+	border-radius: 2px;
+	margin: 0 auto;
+	opacity: 0.1;
 }

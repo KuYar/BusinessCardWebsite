@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body
 {
 	margin: 0;
@@ -6,9 +10,28 @@ body
 	background-attachment: fixed;
 }
 
+.h1Style
+{
+	font-style: italic;
+	font-size: 17px;
+	margin-top: 10%;
+	margin-right: 27%;
+	float:right;
+	display: flex;
+}
+
+.consize
+{
+	height: 520px;
+}
+
 .size
 {
-	width: 10px;
+	position: relative;
+	width: 68%;
+	margin-top: 8%;
+	float:right;
+	display: flex;
 }
 
 .try
