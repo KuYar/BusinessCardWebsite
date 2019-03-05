@@ -20,20 +20,6 @@ body
 	display: flex;
 }
 
-.consize
-{
-	height: 520px;
-}
-
-.size
-{
-	position: relative;
-	width: 68%;
-	margin-top: 8%;
-	float:right;
-	display: flex;
-}
-
 .try
 {
 	border: solid red 2px;
@@ -73,4 +59,32 @@ body
 	margin-right: 17%;
 	margin-top: 15%;
 	text-align: center;
+}
+
+#h1st
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 30%;
+	margin-left: 11%;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+	color:#172C3F;
+	/*border: solid red 2px;*/
+	font-family: "Times New Roman", Times,serif;
+}
+
+.place
+{
+	float: right;
+	width: 400px;
+	margin-right: 17%;
+}
+
+.consize
+{
+	background: rgba(0,6,15,0.2);
+	border-radius: 3px;
+	border: 1px solid rgba(0,6,15,0.2);
 }

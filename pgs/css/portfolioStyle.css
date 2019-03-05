@@ -1,6 +1,5 @@
-html
-{
-	overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
 body
@@ -9,38 +8,6 @@ body
 	padding: 0;
 	background: url(img/bg.jpg) no-repeat center/cover;
 	background-attachment: fixed;
-}
-
-ul
-{
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-}
-
-ul.list
-{
-	width: 300px;
-	float: right;
-	margin-top: 20%;
-	margin-right: 30%;
-}
-
-.list
-{
-	color:black;
-	text-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-
-.list li
-{
-	text-decoration: none;
-}
-
-.size
-{
-	width: 100px;
 }
 
 .styleze
@@ -63,34 +30,37 @@ ul.list
 	background-color: transparent;
 }
 
-.mapsize
+ul
 {
-	width: 5%;
-	margin-top: 5%;
-	float: left;
-	margin-left: 10%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
 }
 
-.line
+.lis
 {
-	height: 1px;
-	width: 90%;
-	background-color: black;
-	border-radius: 2px;
-	margin: 0 auto;
-	opacity: 0.1;
+}
+
+.lis li
+{
+	float: left;
+	margin-right: 1%;
+	margin-left: 1.7%;
+	margin-top: 1%;
 }
 
 .lilines
 {
 	height: 1px;
-	width: 30%;
+	width: 90%;
+	margin: 0 auto;
 	background-color: black;
 	border-radius: 2px;
 	opacity: 0.1;
 }
 
-.icons
+.ph
 {
-	width: 10%;
+	width: 300px;
+	height: 200px;
 }
