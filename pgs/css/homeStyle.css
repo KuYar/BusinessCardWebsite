@@ -40,4 +40,14 @@ body
 {
 	margin-top: 10px;
 	width: 30%;
+	margin-bottom: 10px;
+}
+
+.text
+{
+	float:right; 
+	font-family: Arial, sans-serif;
+	margin-right: 17%;
+	margin-top: 15%;
+	text-align: center;
 }
